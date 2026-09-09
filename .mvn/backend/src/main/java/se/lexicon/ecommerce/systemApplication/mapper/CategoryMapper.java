@@ -1,7 +1,7 @@
-package systemApplication.mapper;
+package se.lexicon.ecommerce.systemApplication.mapper;
 
-import systemApplication.dto.response.CategoryResponse;
-import systemApplication.entity.Category;
+import se.lexicon.ecommerce.systemApplication.dto.response.CategoryResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Category;
 import org.springframework.stereotype.Component;
 
 @Component

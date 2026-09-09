@@ -1,11 +1,16 @@
-package systemApplication.service;
+package se.lexicon.ecommerce.systemApplication.service;
 
-import systemApplication.dto.request.CategoryRequest;
-import systemApplication.dto.response.CategoryResponse;
+
+import se.lexicon.ecommerce.systemApplication.dto.request.CategoryRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.CategoryResponse;
+
 
 import java.util.List;
 
 public interface CategoryService {
     CategoryResponse create(CategoryRequest categoryRequest);
+
+
+
     List<CategoryResponse> findAll();
 }

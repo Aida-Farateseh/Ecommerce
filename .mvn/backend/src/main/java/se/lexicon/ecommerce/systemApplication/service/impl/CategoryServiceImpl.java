@@ -1,16 +1,16 @@
-package systemApplication.service.impl;
+package se.lexicon.ecommerce.systemApplication.service.impl;
 
 
-import systemApplication.dto.request.CategoryRequest;
-import systemApplication.dto.response.CategoryResponse;
-import systemApplication.entity.Category;
-import systemApplication.exception.CategoryAlreadyExistsException;
+import se.lexicon.ecommerce.systemApplication.dto.request.CategoryRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.CategoryResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Category;
+import se.lexicon.ecommerce.systemApplication.exception.CategoryAlreadyExistsException;
 import lombok.RequiredArgsConstructor;
-import systemApplication.mapper.CategoryMapper;
+import se.lexicon.ecommerce.systemApplication.mapper.CategoryMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import systemApplication.repository.CategoryRepository;
-import systemApplication.service.CategoryService;
+import se.lexicon.ecommerce.systemApplication.repository.CategoryRepository;
+import se.lexicon.ecommerce.systemApplication.service.CategoryService;
 
 import java.util.List;
 
@@ -21,8 +21,8 @@ public class CategoryServiceImpl implements CategoryService {
     private final CategoryRepository categoryRepository;
     private final CategoryMapper categoryMapper;
 
-    @Override
     @Transactional
+    @Override
     public CategoryResponse create(CategoryRequest categoryRequest) {
         if(categoryRequest.name() == null || categoryRequest.name().isBlank()) throw new IllegalArgumentException("Category name cannot be null!");
 

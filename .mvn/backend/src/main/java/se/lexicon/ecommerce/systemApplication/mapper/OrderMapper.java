@@ -1,9 +1,9 @@
-package systemApplication.mapper;
+package se.lexicon.ecommerce.systemApplication.mapper;
 
-import systemApplication.dto.response.OrderItemResponse;
-import systemApplication.dto.response.OrderResponse;
-import systemApplication.entity.Order;
-import systemApplication.entity.OrderItem;
+import se.lexicon.ecommerce.systemApplication.dto.response.OrderItemResponse;
+import se.lexicon.ecommerce.systemApplication.dto.response.OrderResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Order;
+import se.lexicon.ecommerce.systemApplication.entity.OrderItem;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

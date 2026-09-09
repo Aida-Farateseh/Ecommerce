@@ -1,21 +1,21 @@
-package systemApplication.service.impl;
+package se.lexicon.ecommerce.systemApplication.service.impl;
 
 
-import systemApplication.entity.*;
-import systemApplication.exception.ResourceNotFoundException;
+import se.lexicon.ecommerce.systemApplication.entity.*;
+import se.lexicon.ecommerce.systemApplication.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
-import systemApplication.mapper.OrderMapper;
+import se.lexicon.ecommerce.systemApplication.mapper.OrderMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import systemApplication.dto.request.OrderItemRequest;
-import systemApplication.dto.request.OrderRequest;
-import systemApplication.dto.response.OrderResponse;
-import systemApplication.repository.CustomerRepository;
-import systemApplication.repository.OrderRepository;
-import systemApplication.repository.ProductRepository;
-import systemApplication.service.OrderService;
-import systemApplication.service.PromotionService;
+import se.lexicon.ecommerce.systemApplication.dto.request.OrderItemRequest;
+import se.lexicon.ecommerce.systemApplication.dto.request.OrderRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.OrderResponse;
+import se.lexicon.ecommerce.systemApplication.repository.CustomerRepository;
+import se.lexicon.ecommerce.systemApplication.repository.OrderRepository;
+import se.lexicon.ecommerce.systemApplication.repository.ProductRepository;
+import se.lexicon.ecommerce.systemApplication.service.OrderService;
+import se.lexicon.ecommerce.systemApplication.service.PromotionService;
 import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;

@@ -1,10 +1,10 @@
-package systemApplication.mapper;
+package se.lexicon.ecommerce.systemApplication.mapper;
 
-import systemApplication.dto.request.CustomerRequest;
-import systemApplication.dto.response.AddressResponse;
-import systemApplication.dto.response.CustomerResponse;
-import systemApplication.entity.Address;
-import systemApplication.entity.Customer;
+import se.lexicon.ecommerce.systemApplication.dto.request.CustomerRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.AddressResponse;
+import se.lexicon.ecommerce.systemApplication.dto.response.CustomerResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Address;
+import se.lexicon.ecommerce.systemApplication.entity.Customer;
 import org.springframework.stereotype.Component;
 
 @Component // Manage the systemApplication.systemApplication.service.service.mapper as a bean and inject it into other classes

@@ -1,4 +1,4 @@
-package systemApplication.exception;
+package se.lexicon.ecommerce.systemApplication.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ProblemDetail;

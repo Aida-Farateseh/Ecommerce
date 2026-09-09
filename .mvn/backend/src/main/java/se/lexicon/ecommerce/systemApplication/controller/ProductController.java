@@ -1,4 +1,4 @@
-package systemApplication.controller;
+package se.lexicon.ecommerce.systemApplication.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -6,9 +6,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import systemApplication.dto.request.ProductRequest;
-import systemApplication.dto.response.ProductResponse;
-import systemApplication.service.ProductService;
+import se.lexicon.ecommerce.systemApplication.dto.request.ProductRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.ProductResponse;
+import se.lexicon.ecommerce.systemApplication.service.ProductService;
 import java.util.List;
 
 /**

@@ -1,8 +1,8 @@
-package systemApplication.service;
+package se.lexicon.ecommerce.systemApplication.service;
 
 
-import systemApplication.dto.request.ProductRequest;
-import systemApplication.dto.response.ProductResponse;
+import se.lexicon.ecommerce.systemApplication.dto.request.ProductRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.ProductResponse;
 
 import java.util.List;
 

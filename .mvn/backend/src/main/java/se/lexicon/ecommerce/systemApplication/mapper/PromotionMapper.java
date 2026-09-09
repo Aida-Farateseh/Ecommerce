@@ -1,9 +1,9 @@
-package systemApplication.mapper;
+package se.lexicon.ecommerce.systemApplication.mapper;
 
-import systemApplication.dto.request.PromotionRequest;
-import systemApplication.dto.response.PromotionResponse;
-import systemApplication.entity.Product;
-import systemApplication.entity.Promotion;
+import se.lexicon.ecommerce.systemApplication.dto.request.PromotionRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.PromotionResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Product;
+import se.lexicon.ecommerce.systemApplication.entity.Promotion;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

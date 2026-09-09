@@ -1,8 +1,7 @@
-package systemApplication.dto.response;
+package se.lexicon.ecommerce.systemApplication.dto.response;
 
 
-
-import systemApplication.entity.OrderStatus;
+import se.lexicon.ecommerce.systemApplication.entity.OrderStatus;
 
 import java.time.Instant;
 import java.util.List;

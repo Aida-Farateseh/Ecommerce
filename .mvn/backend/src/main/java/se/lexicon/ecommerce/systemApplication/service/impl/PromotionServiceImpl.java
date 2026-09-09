@@ -1,18 +1,18 @@
-package systemApplication.service.impl;
+package se.lexicon.ecommerce.systemApplication.service.impl;
 
-import systemApplication.entity.Product;
-import systemApplication.entity.Promotion;
-import systemApplication.exception.ResourceNotFoundException;
-import systemApplication.mapper.PromotionMapper;
+import se.lexicon.ecommerce.systemApplication.entity.Product;
+import se.lexicon.ecommerce.systemApplication.entity.Promotion;
+import se.lexicon.ecommerce.systemApplication.exception.ResourceNotFoundException;
+import se.lexicon.ecommerce.systemApplication.mapper.PromotionMapper;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import systemApplication.dto.request.PromotionRequest;
-import systemApplication.dto.response.PromotionResponse;
-import systemApplication.repository.ProductRepository;
-import systemApplication.repository.PromotionRepository;
-import systemApplication.service.PromotionService;
+import se.lexicon.ecommerce.systemApplication.dto.request.PromotionRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.PromotionResponse;
+import se.lexicon.ecommerce.systemApplication.repository.ProductRepository;
+import se.lexicon.ecommerce.systemApplication.repository.PromotionRepository;
+import se.lexicon.ecommerce.systemApplication.service.PromotionService;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.time.LocalDate;

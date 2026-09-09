@@ -1,4 +1,4 @@
-package systemApplication.dto.request;
+package se.lexicon.ecommerce.systemApplication.dto.request;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;

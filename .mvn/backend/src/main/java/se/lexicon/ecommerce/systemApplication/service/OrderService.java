@@ -1,7 +1,7 @@
-package systemApplication.service;
+package se.lexicon.ecommerce.systemApplication.service;
 
-import systemApplication.dto.request.OrderRequest;
-import systemApplication.dto.response.OrderResponse;
+import se.lexicon.ecommerce.systemApplication.dto.request.OrderRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.OrderResponse;
 
 public interface OrderService {
     OrderResponse placeOrder(OrderRequest orderRequest);

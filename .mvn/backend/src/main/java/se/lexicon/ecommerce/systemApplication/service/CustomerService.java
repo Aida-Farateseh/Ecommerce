@@ -1,8 +1,8 @@
-package systemApplication.service;
+package se.lexicon.ecommerce.systemApplication.service;
 
 
-import systemApplication.dto.request.CustomerRequest;
-import systemApplication.dto.response.CustomerResponse;
+import se.lexicon.ecommerce.systemApplication.dto.request.CustomerRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.CustomerResponse;
 
 
 public interface CustomerService {

@@ -1,5 +1,4 @@
-package systemApplication.dto.response;
-
+package se.lexicon.ecommerce.systemApplication.dto.response;
 import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.util.List;

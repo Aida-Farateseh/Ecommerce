@@ -1,6 +1,6 @@
-package systemApplication.repository;
+package se.lexicon.ecommerce.systemApplication.repository;
 
-import systemApplication.entity.Promotion;
+import se.lexicon.ecommerce.systemApplication.entity.Promotion;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

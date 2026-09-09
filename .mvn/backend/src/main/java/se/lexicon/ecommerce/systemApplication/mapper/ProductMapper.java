@@ -1,8 +1,8 @@
-package systemApplication.mapper;
+package se.lexicon.ecommerce.systemApplication.mapper;
 
-import systemApplication.dto.request.ProductRequest;
-import systemApplication.dto.response.ProductResponse;
-import systemApplication.entity.Product;
+import se.lexicon.ecommerce.systemApplication.dto.request.ProductRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.ProductResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Product;
 import org.springframework.stereotype.Component;
 
 @Component

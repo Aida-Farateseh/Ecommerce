@@ -1,6 +1,6 @@
-package systemApplication.repository;
+package se.lexicon.ecommerce.systemApplication.repository;
 
-import systemApplication.entity.Customer;
+import se.lexicon.ecommerce.systemApplication.entity.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

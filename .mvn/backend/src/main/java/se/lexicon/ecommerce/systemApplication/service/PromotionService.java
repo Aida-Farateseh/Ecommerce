@@ -1,9 +1,9 @@
-package systemApplication.service;
+package se.lexicon.ecommerce.systemApplication.service;
 
 
-import systemApplication.dto.request.PromotionRequest;
-import systemApplication.dto.response.PromotionResponse;
-import systemApplication.entity.Product;
+import se.lexicon.ecommerce.systemApplication.dto.request.PromotionRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.PromotionResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Product;
 
 import java.math.BigDecimal;
 import java.util.List;

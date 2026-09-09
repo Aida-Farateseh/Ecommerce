@@ -1,16 +1,16 @@
-package systemApplication.service.impl;
-import systemApplication.dto.request.ProductRequest;
-import systemApplication.dto.response.ProductResponse;
-import systemApplication.entity.Category;
-import systemApplication.entity.Product;
-import systemApplication.exception.ResourceNotFoundException;
+package se.lexicon.ecommerce.systemApplication.service.impl;
+import se.lexicon.ecommerce.systemApplication.dto.request.ProductRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.ProductResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Category;
+import se.lexicon.ecommerce.systemApplication.entity.Product;
+import se.lexicon.ecommerce.systemApplication.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
-import systemApplication.mapper.ProductMapper;
+import se.lexicon.ecommerce.systemApplication.mapper.ProductMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import systemApplication.repository.CategoryRepository;
-import systemApplication.repository.ProductRepository;
-import systemApplication.service.ProductService;
+import se.lexicon.ecommerce.systemApplication.repository.CategoryRepository;
+import se.lexicon.ecommerce.systemApplication.repository.ProductRepository;
+import se.lexicon.ecommerce.systemApplication.service.ProductService;
 
 
 import java.util.List;

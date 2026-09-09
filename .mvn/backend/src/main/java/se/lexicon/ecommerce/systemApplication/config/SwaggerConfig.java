@@ -1,4 +1,4 @@
-package systemApplication.config;
+package se.lexicon.ecommerce.systemApplication.config;
 
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Info;
@@ -14,7 +14,7 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("SpringAI")
-                        .description("EcommerceSystemApplication")
+                        .description("EcommerceApplication")
                         .version("1.0.0")
                         .license(new License()
                                 .name("Apache 2.0")

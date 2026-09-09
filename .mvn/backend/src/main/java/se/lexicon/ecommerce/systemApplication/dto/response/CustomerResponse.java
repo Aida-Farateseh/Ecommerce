@@ -1,5 +1,4 @@
-package systemApplication.dto.response;
-
+package se.lexicon.ecommerce.systemApplication.dto.response;
 public record CustomerResponse(
         Long id,
         String fullName,

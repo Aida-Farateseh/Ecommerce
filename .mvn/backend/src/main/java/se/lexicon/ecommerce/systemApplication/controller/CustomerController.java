@@ -1,8 +1,8 @@
-package systemApplication.controller;
+package se.lexicon.ecommerce.systemApplication.controller;
 
 
-import systemApplication.dto.request.CustomerRequest;
-import systemApplication.dto.response.CustomerResponse;
+import se.lexicon.ecommerce.systemApplication.dto.request.CustomerRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.CustomerResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.parameters.RequestBody;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -12,7 +12,7 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import systemApplication.service.CustomerService;
+import se.lexicon.ecommerce.systemApplication.service.CustomerService;
 
 @RestController
 @RequestMapping("/api/v1/customers")

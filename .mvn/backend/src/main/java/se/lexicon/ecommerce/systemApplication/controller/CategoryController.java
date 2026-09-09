@@ -1,7 +1,7 @@
-package systemApplication.controller;
+package se.lexicon.ecommerce.systemApplication.controller;
 
-import systemApplication.dto.request.CategoryRequest;
-import systemApplication.dto.response.CategoryResponse;
+import se.lexicon.ecommerce.systemApplication.dto.request.CategoryRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.CategoryResponse;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -9,7 +9,7 @@ import jakarta.validation.Valid;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import systemApplication.service.CategoryService;
+import se.lexicon.ecommerce.systemApplication.service.CategoryService;
 
 import java.util.List;
 

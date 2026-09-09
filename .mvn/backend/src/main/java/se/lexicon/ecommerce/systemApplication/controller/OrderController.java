@@ -1,4 +1,4 @@
-package systemApplication.controller;
+package se.lexicon.ecommerce.systemApplication.controller;
 
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import systemApplication.dto.request.OrderRequest;
-import systemApplication.dto.response.OrderResponse;
-import systemApplication.service.OrderService;
+import se.lexicon.ecommerce.systemApplication.dto.request.OrderRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.OrderResponse;
+import se.lexicon.ecommerce.systemApplication.service.OrderService;
 
 /**
  * REST systemApplication.systemApplication.service.service.controller responsible for handling order-related operations.

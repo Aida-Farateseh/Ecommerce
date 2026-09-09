@@ -1,0 +1,72 @@
+# noinspection SpringBootApplicationYaml
+spring:
+  cloud:
+
+  config:
+
+  enabled: false
+
+  application:
+    name: Ecommerce
+
+  ai:
+    retry:
+      max-attempts: 1
+    openai:
+      api-key: ${OPENAI_API_KEY}
+
+      chat:
+        model: gpt-4o
+        temperature: 0.2
+        max-tokens: 1000
+
+    chat:
+      memory:
+        repository:
+          jdbc:
+            # Auto-create the chat memory schema on startup for MySQL.
+            # The default mode is "embedded", so for MySQL we use "always".
+            initialize-schema: always
+    server:
+      port: 8080
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/e-commerce_db?createDatabaseIfNotExist=true&useSSL=true&serverTimezone=UTC
+    username: root
+    password: root
+
+  jpa:
+    database-platform: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: update
+      show-sql: true
+    properties:
+      hibernate:
+        format_sql: false
+
+springdoc:
+  api-docs:
+    path: /v3/api-docs
+    enabled: true
+  swagger-ui:
+    path: /swagger-ui.html
+    enabled: true
+
+
+
+app:
+  cors:
+    allowed-origins:
+      - http://localhost:5173
+      - http://localhost:3000
+    allowed-methods:
+      - GET
+      - POST
+      - PUT
+      - DELETE
+      - OPTIONS
+    allowed-headers:
+      - "*"
+    allow-credentials: true
+
+  

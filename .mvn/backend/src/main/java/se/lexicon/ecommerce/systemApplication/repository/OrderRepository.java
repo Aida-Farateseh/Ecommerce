@@ -1,7 +1,7 @@
-package systemApplication.repository;
+package se.lexicon.ecommerce.systemApplication.repository;
 
-import systemApplication.entity.Order;
-import systemApplication.entity.OrderStatus;
+import se.lexicon.ecommerce.systemApplication.entity.Order;
+import se.lexicon.ecommerce.systemApplication.entity.OrderStatus;
 import org.springframework.data.jpa.repository.EntityGraph;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

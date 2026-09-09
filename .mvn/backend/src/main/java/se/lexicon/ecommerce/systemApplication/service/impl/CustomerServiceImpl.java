@@ -1,17 +1,17 @@
-package systemApplication.service.impl;
+package se.lexicon.ecommerce.systemApplication.service.impl;
 
-import systemApplication.dto.request.CustomerRequest;
-import systemApplication.dto.response.CustomerResponse;
-import systemApplication.entity.Address;
-import systemApplication.entity.Customer;
-import systemApplication.exception.EmailAlreadyExistsException;
-import systemApplication.exception.ResourceNotFoundException;
+import se.lexicon.ecommerce.systemApplication.dto.request.CustomerRequest;
+import se.lexicon.ecommerce.systemApplication.dto.response.CustomerResponse;
+import se.lexicon.ecommerce.systemApplication.entity.Address;
+import se.lexicon.ecommerce.systemApplication.entity.Customer;
+import se.lexicon.ecommerce.systemApplication.exception.EmailAlreadyExistsException;
+import se.lexicon.ecommerce.systemApplication.exception.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
-import systemApplication.mapper.CustomerMapper;
+import se.lexicon.ecommerce.systemApplication.mapper.CustomerMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import systemApplication.repository.CustomerRepository;
-import systemApplication.service.CustomerService;
+import se.lexicon.ecommerce.systemApplication.repository.CustomerRepository;
+import se.lexicon.ecommerce.systemApplication.service.CustomerService;
 
 
 @Service
