@@ -1,0 +1,117 @@
+/* App.css */
+
+/* --- Grundläggande sidlayout --- */
+body {
+  margin: 0;
+  background-color: #f3f4f6;
+  font-family: system-ui, sans-serif;
+}
+
+.page-wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* --- Navbar (skelett) --- */
+.navbar {
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 64px;
+  padding: 0 24px;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 16px;
+}
+
+.navbar-actions {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+/* --- Hero (skelett) --- */
+.hero-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 64px 24px;
+}
+
+/* --- Produktsektion (skelett) --- */
+.product-section {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media (min-width: 640px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .product-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* --- Footer (skelett) --- */
+.footer {
+  background-color: #1f2937;
+  text-align: center;
+  padding: 24px;
+}
+.product-card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  height: 160px;
+  background-color: #e5e7eb;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.product-name {
+  font-weight: 500;
+  color: #111827;
+  margin: 0;
+}
+
+.product-price {
+  color: #6b7280;
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
+.product-price-wrapper {
+  margin-top: 4px;
+}
+
+.product-price-original {
+  color: #9ca3af;
+  font-size: 13px;
+  text-decoration: line-through;
+  margin: 0;
+}
+
+.product-price-discounted {
+  color: #dc2626;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 2px 0 0;
+}

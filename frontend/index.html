@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+<!-- Navbar -->
+<nav class="bg-gray-800">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="flex h-16 items-center justify-between">
+            <div class="flex items-center gap-6">
+                <span class="text-white font-bold text-xl">Butira</span>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Dam</a>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Man</a>
+                <a href="#" class="text-gray-300 hover:text-white text-sm">Barn</a>
+            </div>
+            <div class="flex items-center gap-4">
+                <label>
+                    <input type="text" placeholder="Sök produkter..."
+                           class="rounded-md bg-gray-700 px-3 py-1.5 text-sm text-white placeholder-gray-400">
+                </label>
+                <span class="text-gray-300">🔔</span>
+                <span class="text-gray-300">🛒</span>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="bg-white py-16 text-center">
+    <h1 class="text-4xl font-bold text-gray-900">SommarRean är här</h1>
+    <p class="mt-4 text-gray-600">Upp till 50% rabatt på utvalda produkter</p>
+    <button class="mt-6 rounded-md bg-indigo-600 px-6 py-2 text-white hover:bg-indigo-700">
+        Handla nu
+    </button>
+</section>
+
+<!-- Product grid -->
+<section class="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
+    <h2 class="text-2xl font-bold text-gray-900 mb-6">Populära produkter</h2>
+    <div class="grid grid-cols-2 gap-6 sm:grid-cols-3 lg:grid-cols-4">
+
+        <div class="rounded-lg bg-white p-4 shadow">
+            <div class="h-40 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="font-medium text-gray-900">Produktnamn</h3>
+            <p class="text-gray-500 text-sm">299 kr</p>
+        </div>
+
+        <div class="rounded-lg bg-white p-4 shadow">
+            <div class="h-40 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="font-medium text-gray-900">Produktnamn</h3>
+            <p class="text-gray-500 text-sm">399 kr</p>
+        </div>
+
+        <div class="rounded-lg bg-white p-4 shadow">
+            <div class="h-40 bg-gray-200 rounded-md mb-3"></div>
+            <h3 class="font-medium text-gray-900">Produktnamn</h3>
+            <p class="text-gray-500 text-sm">199 kr</p>
+        </div>
+
+    </div>
+</section>
+
+</body>
+</html>
